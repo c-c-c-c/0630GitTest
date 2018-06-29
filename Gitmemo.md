@@ -48,3 +48,4 @@
 ## その後
 - githubレポジトリのcreatefileで/すればディレクトリ作れる
 - Githubの性質上空ディレクトリは作れない
+- 組織を作る事ができる(orihakatt/hoge　→　org/hoge)
