@@ -7,7 +7,8 @@
     - 容量に気を付ける
     - フリーだと容量小さい
     - 大規模だと入れた方がいいかもだけど、今回のような小規模だとむしろ容量引っかかってpushできなくなるから要らないかも
-    * https://www.slideshare.net/hibiki443/git-git-lfs-60951449　←詳細
+    * https://www.slideshare.net/hibiki443/git-git-lfs-60951449
+   
 1. .gitignore
     - Unity向けの奴を _最初に_ 置く。
     - https://qiita.com/nariya/items/97afba6b7b448920cdf0
