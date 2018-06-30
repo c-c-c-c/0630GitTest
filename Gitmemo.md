@@ -3,17 +3,24 @@
  1. tig コマンドラインをリッチにする奴 mac専用
  1. git LFSについて
     - GitHubの所有するストレージに本体を置いて、ポインタだけ所持するから軽い
+    - GitHubの所有するストレージに本体を置いて、ポインタだけ所持するから一々保存しなくてよい。軽い。
     - git lfs attribute
     - 容量に気を付ける
     - フリーだと容量小さい
     - 大規模だと入れた方がいいかもだけど、今回のような小規模だとむしろ容量引っかかってpushできなくなるから要らないかも
     * https://www.slideshare.net/hibiki443/git-git-lfs-60951449　←詳細
+    - フリーだと容量小さい。注意。
+    - 大規模案件はLFS入れた方がいいかもしれないが、今回のような小規模プロジェクトだとむしろ容量引っかかってpushできなくなるから要らない
+    * https://www.slideshare.net/hibiki443/git-git-lfs-60951449
+   
 1. .gitignore
     - Unity向けの奴を _最初に_ 置く。
+    - Unity向けの奴を _最初に_ 置く。後で設定してもキャッシュが残っているから面倒
     - https://qiita.com/nariya/items/97afba6b7b448920cdf0
 
 ## 今日やったこと
 1. sourcetreeでブランチの様子見るよ
+1. sourcetreeでブランチの様子見る
  1. git clone https://github.com/orihakatt/Vj_soft_2.git
  1. git status
  1. [text.txt追加]
